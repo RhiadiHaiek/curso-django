@@ -1,2 +1,3 @@
 # curso-django
-Módulo de aprendizado do Django
+
+Módulo de aprendizado do Django.
