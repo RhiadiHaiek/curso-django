@@ -22,9 +22,9 @@ primary_region = "gru"
     timeout = "2s"
     grace_period = "5s"
 
-#[[statics]]
-#  guest_path = "/code/static"
-#  url_prefix = "/static/"
+[[statics]]
+  guest_path = "/code/public"
+  url_prefix = "/static/"
 
 [deploy]
   release_command = "python manage.py migrate --noinput"  
